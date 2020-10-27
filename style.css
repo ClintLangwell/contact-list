@@ -1,0 +1,18 @@
+.contacts-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  height: 125px;
+  width: 125px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.delete {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+}
